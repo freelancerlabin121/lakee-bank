@@ -1,0 +1,8 @@
+const withdrawAmount = document.getElementById('withdrawAmount').value;
+     const withdrawNumber = parseFloat(withdrawAmount); 
+     console.log(withdrawNumber);
+
+     const currentWithdraw = document.getElementById('currentWithdraw').innerText;
+     const currentWithdrawNumber = parseFloat(currentWithdraw);
+     const tutalwithdraw = withdrawNumber + currentBalanceNumber;
+     document.getElementById('currentWithdraw').innerText = tutalwithdraw;  
